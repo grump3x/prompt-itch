@@ -1,0 +1,11 @@
+{
+  "name": "laconic",
+  "version": "1.0.0",
+  "description": "Brief prose. Short common words. Trust context. State what matters. Omit what reader can infer.",
+  "author": {
+    "name": "Gabriel Barberini",
+    "url": "https://github.com/GabrielBarberini"
+  },
+  "homepage": "https://github.com/GabrielBarberini/laconic",
+  "license": "MIT"
+}
