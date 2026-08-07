@@ -1,11 +1,11 @@
 {
   "name": "laconic",
-  "version": "1.0.0",
-  "description": "Brief prose. Short common words. Trust context. State what matters. Omit what reader can infer.",
+  "version": "3.0.0",
+  "description": "Brief prose, no AI tells. Two output styles: laconic and laconic-ru.",
   "author": {
-    "name": "Gabriel Barberini",
-    "url": "https://github.com/GabrielBarberini"
+    "name": "grump3x",
+    "url": "https://github.com/grump3x"
   },
-  "homepage": "https://github.com/GabrielBarberini/laconic",
+  "homepage": "https://github.com/grump3x/prompt-itch",
   "license": "MIT"
 }

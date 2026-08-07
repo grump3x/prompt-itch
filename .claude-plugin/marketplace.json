@@ -8,30 +8,12 @@
   },
   "plugins": [
     {
-      "name": "stop-slop",
-      "source": "./plugins/stop-slop",
-      "version": "1.0.0",
-      "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.",
-      "category": "writing",
-      "author": {
-        "name": "Hardik Pandya",
-        "url": "https://hvpandya.com"
-      },
-      "license": "MIT",
-      "homepage": "https://github.com/hardikpandya/stop-slop"
-    },
-    {
       "name": "laconic",
       "source": "./plugins/laconic",
-      "version": "1.0.0",
-      "description": "Brief prose. Short common words. Trust context. State what matters. Omit what reader can infer.",
-      "category": "productivity",
-      "author": {
-        "name": "Gabriel Barberini",
-        "url": "https://github.com/GabrielBarberini"
-      },
-      "license": "MIT",
-      "homepage": "https://github.com/GabrielBarberini/laconic"
+      "version": "3.0.0",
+      "description": "Brief prose, no AI tells. Two output styles: laconic and laconic-ru.",
+      "category": "writing",
+      "license": "MIT"
     }
   ]
 }

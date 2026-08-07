@@ -1,15 +1,30 @@
 # Laconic
 
-Fewer words, sharper thought. Trust context; say only what silence can't.
+Brief prose, no AI tells.
 
-Provides the `laconic` skill. Triggers on "laconic mode", "be laconic", "less tokens".
+## Output styles
 
-## Upstream
+Two variants, pick one in `/config` under **Output style**. Both keep Claude
+Code's built-in engineering instructions.
 
-Vendored from [GabrielBarberini/laconic](https://github.com/GabrielBarberini/laconic).
-Only the Claude Code parts are included here: the skill and the plugin manifest.
-The upstream repo also ships Codex/agents variants, a VS Code extension, and benchmarks.
+| Style | What it adds |
+|-------|--------------|
+| `laconic` | Brevity rules only. Language untouched. |
+| `laconic-ru` | Same rules, plus: reason in English, answer the user in Russian, keep the repository English-only. |
 
-## License
+Only one output style is active at a time. Neither sets `force-for-plugin`, so
+the choice stays yours. `/config` saves it to the project's
+`.claude/settings.local.json`; to apply it everywhere, put `"outputStyle": "laconic"`
+in `~/.claude/settings.json` instead. The change takes effect after `/clear` or
+a new session.
 
-MIT, Copyright (c) 2025 Gabriel Barberini. See [LICENSE](LICENSE).
+A style sets how every answer sounds. This plugin ships nothing else.
+
+## Upstream and licenses
+
+Vendored from [GabrielBarberini/laconic](https://github.com/GabrielBarberini/laconic),
+redistributed under its original MIT license as [LICENSE](LICENSE), Gabriel
+Barberini. The text is carried over verbatim from its `SKILL.md`; only the
+frontmatter changed and the `laconic-ru` variant appends a language section.
+Upstream also ships Codex variants, a VS Code extension, and benchmarks, all
+left there.
