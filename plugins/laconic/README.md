@@ -24,7 +24,6 @@ A style sets how every answer sounds. This plugin ships nothing else.
 
 Vendored from [GabrielBarberini/laconic](https://github.com/GabrielBarberini/laconic),
 redistributed under its original MIT license as [LICENSE](LICENSE), Gabriel
-Barberini. The text is carried over verbatim from its `SKILL.md`; only the
-frontmatter changed and the `laconic-ru` variant appends a language section.
-Upstream also ships Codex variants, a VS Code extension, and benchmarks, all
-left there.
+Barberini. The rules come from its `SKILL.md`, reworded in ASD-STE100 Simplified
+Technical English; the `laconic-ru` variant appends a language section. Upstream
+also ships Codex variants, a VS Code extension, and benchmarks, all left there.
