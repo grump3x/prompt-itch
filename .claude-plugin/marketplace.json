@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "prompt-itch",
+  "description": "Plugin collection",
+  "owner": {
+    "name": "grump3x",
+    "url": "https://github.com/grump3x"
+  },
+  "plugins": [
+    {
+      "name": "laconic",
+      "source": "./plugins/laconic",
+      "version": "3.0.0",
+      "description": "Be laconic.",
+      "category": "writing",
+      "license": "MIT"
+    }
+  ]
+}

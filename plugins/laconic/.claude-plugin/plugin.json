@@ -1,0 +1,11 @@
+{
+  "name": "laconic",
+  "version": "3.0.0",
+  "description": "Be laconic.",
+  "author": {
+    "name": "grump3x",
+    "url": "https://github.com/grump3x"
+  },
+  "homepage": "https://github.com/grump3x/prompt-itch",
+  "license": "MIT"
+}
