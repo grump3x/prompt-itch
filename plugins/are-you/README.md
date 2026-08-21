@@ -1,10 +1,16 @@
 # are-you
 
-Four corrections the user types at a turn that went wrong: the wrong thing built, filler instead of an
-answer, the agent's own work handed over, a claim made without checking. One skill per failure, each
-naming it and carrying the repair. Self-contained: no other plugin, no hooks, no env vars.
+Brief prose, no AI tells — and four corrections the user types at a turn that went wrong: the wrong
+thing built, filler instead of an answer, the agent's own work handed over, a claim made without
+checking. One skill per failure, each naming it and carrying the repair. Self-contained: no other
+plugin, no hooks, no env vars.
 
 ## Reference
+
+### Output style
+
+Pick `laconic` in `/config` → **Output style**. Applies after `/clear`.
+For every project: `"outputStyle": "laconic"` in `~/.claude/settings.json`.
 
 ### User-invoked
 

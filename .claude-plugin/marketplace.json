@@ -8,18 +8,10 @@
   },
   "plugins": [
     {
-      "name": "laconic",
-      "source": "./plugins/laconic",
-      "version": "3.0.0",
-      "description": "Be laconic.",
-      "category": "writing",
-      "license": "MIT"
-    },
-    {
       "name": "are-you",
       "source": "./plugins/are-you",
-      "version": "0.2.0",
-      "description": "Four corrections the user types at a turn that went wrong.",
+      "version": "0.3.0",
+      "description": "Output style laconic, plus four corrections the user types at a turn that went wrong.",
       "category": "workflow",
       "license": "MIT"
     }
