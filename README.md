@@ -10,3 +10,4 @@ Claude Code marketplace. Cut the AI tells, cut the words.
 | Plugin | Ships |
 |--------|-------|
 | `laconic` | Output style `laconic` |
+| `are-you` | Skills `dolbaeb`, `mudozvon`, `ohuel`, `pizdabol` |

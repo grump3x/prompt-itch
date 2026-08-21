@@ -14,6 +14,14 @@
       "description": "Be laconic.",
       "category": "writing",
       "license": "MIT"
+    },
+    {
+      "name": "are-you",
+      "source": "./plugins/are-you",
+      "version": "0.2.0",
+      "description": "Four corrections the user types at a turn that went wrong.",
+      "category": "workflow",
+      "license": "MIT"
     }
   ]
 }
